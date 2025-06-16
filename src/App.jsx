@@ -3,7 +3,11 @@ import React from 'react'
 import Services from './components/services/Services'
 import Portfolio from './components/projects/Portfolio'
 import Contact from './components/contact/Contact'
-import Hero from './components/hero/hero'
+import Hero from './components/hero/Hero'
+
+
+
+
 
 
 
@@ -11,7 +15,7 @@ const App = () => {
   return (
     <div className='container'>
     <section id="#hero">
-    <Hero />
+    <Hero/>
     </section>
     <section id="services">
     <Services/>
